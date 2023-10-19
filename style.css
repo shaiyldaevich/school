@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: o;
+    font-family: Montserrat;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+}
+#header{
+    background: #2435A1;
+    padding: 30px 0;
+}
+.header-nav select{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+background: #2435A1;
+
+/* link */
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.2px;
+border: none;
+margin-left: 113px;
+}
+.header-nav a{
+    color: var(--light-text-color, #FFF);
+text-align: center;
+
+/* link */
+font-size: 14px;
+font-weight: 700;
+letter-spacing: 0.2px;
+margin-left: 113px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#hero{
+    background: url(./img/herobg.png) no-repeat bottom/cover;
+    min-height: 80vh;
+}
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-text h1{
+    color: var(--light-text-color, #FFF);
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 80px; /* 166.667% */
+    letter-spacing: 0.2px;
+}
+.hero-text p{
+    color: #FFF;
+font-size: 20px;
+font-weight: 500;
+letter-spacing: 0.2px;
+margin: 50px 0;
+}
+.icon-cir{
+    width: 70px;
+height: 70px;
+border-radius: 51px;
+border: 1px solid #FFF;
+}
+.icon-txt{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.icon-txt h6{
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.hero-icon{
+    position: relative;
+    
+}
+.as-img {
+    display: flex;
+    align-items: center;
+   gap: 96px;
+}
+.asimg-text h1{
+    color: #000;
+font-family: Montserrat;
+font-size: 24px;
+font-weight: 700;
+letter-spacing: 0.1px;
+}
+.asimg-text h2{
+    color: #000;
+font-size: 14px;
+font-weight: 400;
+letter-spacing: 0.2px;
+margin: 15px;
+}
+.asicon{
+    width: 87px;
+height: 87px;
+border-radius: 50%;
+fill: #F6F6F6;
+filter: drop-shadow(6px 5px 11px rgba(0, 0, 0, 0.25));
+}
+.tx h6{
+    color: #252B42;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+}
+.tx h5{
+    color: #1100D9;
+    font-size: 22px;
+    font-weight: 500;
+    letter-spacing: 0.2px;
+}
